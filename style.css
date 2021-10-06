@@ -40,7 +40,6 @@ h1 {
 }
 
 .flexbox-item {
-    flex-direction: row;
     width: 200px;
    min-height: 200px; 
 }
