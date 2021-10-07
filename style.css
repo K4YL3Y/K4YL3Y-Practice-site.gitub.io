@@ -19,8 +19,8 @@ body {
 
 .tab-selection {
     width: 100px;
-    background-color: turquoise;
-    
+    background-color: teal;
+    padding: 15px;
 }
 
 .tab {
@@ -30,6 +30,7 @@ body {
     justify-content: right;
     top: -10px;
     right: 10px;
+    min-width: 100%;
    }
 
 .head-p1 {
