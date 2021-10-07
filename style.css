@@ -67,5 +67,11 @@ h3 {
     justify-content: right;
     top: 10px;
     right: 10px;
-    width: 30px;
-}
+   }
+
+   .tab-selection {
+       width: 100px;
+       background-color: turquoise;
+   }
+
+   
