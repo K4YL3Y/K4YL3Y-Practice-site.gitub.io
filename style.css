@@ -14,8 +14,23 @@ body {
 .heading-image {
     min-width: 100%;
     height: 50vh;
+    top: 0%;
+}
+
+.tab-selection {
+    width: 100px;
+    background-color: turquoise;
     
 }
+
+.tab {
+    position: fixed;
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+    top: -10px;
+    right: 10px;
+   }
 
 .head-p1 {
     background-color: teal;
@@ -51,27 +66,14 @@ h1 {
     border-color: teal;
     border-style: solid; 
 }
-
-.box-caption {
-    position: absolute;
+figure {
+    position: relative;
+    margin: 0
+}
+figcaption {
+        position: absolute;
+        width: 100%;
+        top: -10px;
+        text-align: center;
 }
 
-h3 {
-    color: yellow;
-}
-
-.tab {
-    position: absolute;
-    flex-direction: row;
-    display: flex;
-    justify-content: right;
-    top: 10px;
-    right: 10px;
-   }
-
-   .tab-selection {
-       width: 100px;
-       background-color: turquoise;
-   }
-
-   
