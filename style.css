@@ -52,3 +52,17 @@ h1 {
     border-style: solid; 
 }
 
+.box-caption {
+    position: absolute;
+   
+}
+
+h3 {
+    color: yellow;
+}
+
+.tab {
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+}
