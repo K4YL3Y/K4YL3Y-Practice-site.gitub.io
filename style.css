@@ -54,7 +54,6 @@ h1 {
 
 .box-caption {
     position: absolute;
-   
 }
 
 h3 {
@@ -62,7 +61,11 @@ h3 {
 }
 
 .tab {
+    position: absolute;
     flex-direction: row;
     display: flex;
     justify-content: right;
+    top: 10px;
+    right: 10px;
+    width: 30px;
 }
